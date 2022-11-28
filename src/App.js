@@ -18,7 +18,7 @@ function App() {
   return (
     <main className=" font-Bai">
       {/* 1st sec */}
-      <section className="  pt-20 gap-4   flex flex-col items-center bg-[url('./images/bg-header-mobile.png')] bg-no-repeat bg-right-top bg-cover  ">
+      <section className="  pt-20 gap-4   flex flex-col items-center bg-[url('./images/bg-header-mobile.png')] bg-no-repeat bg-top-right bg-cover  ">
         <img className="mt-8" src={clipboardLogo} alt="" />
         <h1 className=" mt-10 font-[600] text-3xl text-center w-[65%] text-DarkGrayishBlue  ">
           A history of everything you copy
@@ -50,7 +50,7 @@ function App() {
         <div className="mt-20 flex flex-col items-center ">
           <img src={computer} className=" w-[80%] " alt="" />
           <div className=" flex flex-col items-center gap-8 mt-10  ">
-            <div className=" flex flex-col items-center gap-2">
+            <div className=" mt-10 flex flex-col items-center gap-2">
               <h3 className=" font-[600] text-xl  text-DarkGrayishBlue ">
                 Quick Search
               </h3>{" "}
@@ -161,7 +161,7 @@ function App() {
       </section>
       {/*  */}
       <footer className=" bg-Grayish mt-[10rem] pb-20 flex  flex-col items-center">
-        <img src={clipboardLogo} className=" w-[20%] mt-8 " alt="" />
+        <img src={clipboardLogo} className=" w-[10%] mt-8 " alt="" />
         <ul className=" flex flex-col items-center gap-4 mt-8">
           <li>
             {" "}

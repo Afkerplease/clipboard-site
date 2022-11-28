@@ -617,6 +617,14 @@ video {
   width: 20%;
 }
 
+.w-\[15\%\]{
+  width: 15%;
+}
+
+.w-\[10\%\]{
+  width: 10%;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -686,6 +694,14 @@ video {
 
 .bg-right-top{
   background-position: right top;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-center{
+  background-position: center;
 }
 
 .bg-no-repeat{
