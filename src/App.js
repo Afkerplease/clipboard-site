@@ -160,7 +160,7 @@ function App() {
         </div>
       </section>
       {/*  */}
-      <footer className=" bg-Grayish mt-[10rem] pb-20 flex  flex-col items-center">
+      <footer className=" bg-Grayish mt-[5rem] py-8  flex  flex-col items-center">
         <img src={clipboardLogo} className=" w-[10%] mt-8 " alt="" />
         <ul className=" flex flex-col items-center gap-4 mt-8">
           <li>

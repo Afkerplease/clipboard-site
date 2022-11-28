@@ -585,6 +585,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-\[8rem\]{
+  margin-top: 8rem;
+}
+
+.mt-\[5rem\]{
+  margin-top: 5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -711,6 +719,11 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pt-20{
